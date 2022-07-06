@@ -1,0 +1,33 @@
+.sobre{
+    
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.sobre_titulo{
+    color: #8d0606;
+    font-family: Pacifico, cursivo;
+    font-size: 3.5rem;
+    margin-top: 1.5rem;
+}
+
+.sobre_descripcion{
+    font-size: 2rem;
+    font-weight: 100;
+    color:#8C8888;
+    margin-top: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (min-width: 0){
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+    .sobre_titulo{
+        font-size: 2.5rem;
+    }
+    .sobre_descripcion{
+        font-size: 1.7rem;
+    }
+    
+}
